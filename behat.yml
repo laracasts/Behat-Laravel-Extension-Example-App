@@ -1,8 +1,8 @@
 default:
     extensions:
-        Laracasts\Behat\ServiceContainer\LaravelExtension: ~
+        Laracasts\Behat: ~
             # env_path: .env.behat
-        Behat\MinkExtension\ServiceContainer\MinkExtension:
+        Behat\MinkExtension:
             default_session: laravel
             base_url: http://localhost:8000
             laravel: ~
